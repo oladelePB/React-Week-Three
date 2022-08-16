@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+form {
+  width: 90%;
+  margin: auto;
+  max-width: 400px;
+}
+
+form label {
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+  text-align: left;
+  margin: 1rem 0 0.2rem;
+}
+
+
+
+input {
+  width: 100%;
+  padding: 0.65rem 0.5rem;
+  font-size: 1rem;
+  color: white;
+  border: 2px solid #042764;
+  background-color: #85a7e2;
+  border-radius: 10px;
+  outline: none;
+}
+
+
+
+input:focus {
+  color: #047713;
+}
+
+input::placeholder {
+  color: #a0aec0;
+}
+
+button {
+  margin: 1rem auto;
+  padding: 0.35rem 0.5rem;
+  background-color: #a4b9ca;
+  color: #1a202c;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 0.75rem;
+  text-align: left;
+  margin-top: 0.25rem;
+}
+
+input.input-error {
+  border-color: red;
+}

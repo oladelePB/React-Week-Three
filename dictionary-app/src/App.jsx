@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     async function fecthData() {
       if (word !== "") {
-        const result = await dictionaryAPi("en", word, setMeaning);
+        const result = await dictionaryAPi("en", word);
         if (result) {
           setMeaning([...result]);
         }

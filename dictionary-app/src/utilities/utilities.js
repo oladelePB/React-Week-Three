@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const dictionaryAPi = async (lang, word, setData) => {
+export const dictionaryAPi = async (lang, word) => {
   try {
     const { data } = await axios.get(
       `https://api.dictionaryapi.dev/api/v2/entries/${lang}/${word}`
